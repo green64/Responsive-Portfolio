@@ -357,16 +357,18 @@ filter: alpha(opacity=30);
     }
 
     .content {
-            float: none; 
-            width: 672px;
+            float: left; 
+            width: 715px;
             margin-left: 15px; 
             margin-right: 15px;
-            margin-bottom: 0px;
+            margin-bottom: 15px;
+            margin-top: 20px;
             padding: 10px 10px 10px 10px;
     }
     .nav {
         float: none;
-        width: 672px;
+        clear: both;
+        width: 715px;
         height: 122px;
         padding: 10px 10px 10px 10px;
         margin-left: 15px; 
